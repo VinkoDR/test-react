@@ -15,7 +15,7 @@ export default function Header() {
                 className="header--image"
                 alt="img"
             />
-            <h2 className="header--title">Meme Generator</h2>
+            <h2 className="header--title" data-testid="header--title" title='header'>Meme Generator</h2>
             <img src={logo} className="App-logo" alt="logo" />
 
         </div>
